@@ -1,38 +1,142 @@
-.App {
+.banner img {
+  width: 100%;
+  max-height: 250px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.banner img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.card {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 15%;
+  margin: 20px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.language {
+  font-size: 1.1rem;
   text-align: center;
+  margin: 8px;
+  color: #282e3c;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  font-size: 1.4rem;
+  text-align: center;
+  color: #242424;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.raiting {
+  font-size: 1.1rem;
+  text-align: center;
+  margin: 5px;
+  color: #282e3c;
 }
+
+.logo {
+  max-width: 100px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  margin-left: 50%;
+}
+
+.premiered {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #b62c2c;
+}
+
+.notFound {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.notFound .notFoundImage {
+  max-width: 50%;
+  margin-left: 429px;
+}
+
+.notFound .notFoundTitle {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.notFound .notFoundTitle:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.detail-banner {
+  float: left;
+  height: 530px;
+}
+
+.detail-main-container {
+  text-align: center;
+  background: #e2e1e1;
+  width: 80%;
+  height: 535px;
+  margin: 0 auto;
+}
+
+.detail-name {
+  font-size: 3em;
+  padding-top: 20px;
+  text-align: center;
+  color: #242424;
+  margin: 5px;
+}
+
+.summary {
+  color: #282e3c;
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.header {
+  background: white;
+}
+/*# sourceMappingURL=App.css.map */

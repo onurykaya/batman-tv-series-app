@@ -1,0 +1,19 @@
+.notFound{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    .notFoundImage{
+        max-width: 50%;
+        margin-left: 429px;
+    }
+    .notFoundTitle{
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
