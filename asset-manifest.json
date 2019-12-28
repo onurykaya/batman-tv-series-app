@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/batman-tv-series-app/static/css/main.3fc576e0.chunk.css",
+    "main.js": "/batman-tv-series-app/static/js/main.3d601c0b.chunk.js",
+    "main.js.map": "/batman-tv-series-app/static/js/main.3d601c0b.chunk.js.map",
+    "runtime-main.js": "/batman-tv-series-app/static/js/runtime-main.189b2942.js",
+    "runtime-main.js.map": "/batman-tv-series-app/static/js/runtime-main.189b2942.js.map",
+    "static/js/2.b2454a83.chunk.js": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js",
+    "static/js/2.b2454a83.chunk.js.map": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js.map",
+    "index.html": "/batman-tv-series-app/index.html",
+    "precache-manifest.483dfcccb1187873d1df65a3b3d11093.js": "/batman-tv-series-app/precache-manifest.483dfcccb1187873d1df65a3b3d11093.js",
+    "service-worker.js": "/batman-tv-series-app/service-worker.js",
+    "static/css/main.3fc576e0.chunk.css.map": "/batman-tv-series-app/static/css/main.3fc576e0.chunk.css.map",
+    "static/js/2.b2454a83.chunk.js.LICENSE": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.189b2942.js",
+    "static/js/2.b2454a83.chunk.js",
+    "static/css/main.3fc576e0.chunk.css",
+    "static/js/main.3d601c0b.chunk.js"
+  ]
+}
