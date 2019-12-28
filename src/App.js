@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/" component={Main} />
+        <Route exact path="/batman-tv-series-app" component={Main} />
         <Route exact path="/detail/:id" component={Detail} />
-        <Route  path="" component={NotFound} />
+        <Route exact path="" component={NotFound} />
       </Switch>
     </div>
   );
