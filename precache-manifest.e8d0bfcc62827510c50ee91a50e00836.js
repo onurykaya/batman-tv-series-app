@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3a5da1bff402f312b90972790878801",
+    "revision": "4e029c6737966927e4f6e203ffa2ebd8",
     "url": "/batman-tv-series-app/index.html"
   },
   {
-    "revision": "c9345ed214ae40376b84",
+    "revision": "b2ed1fa42b25954ac5cb",
     "url": "/batman-tv-series-app/static/css/main.3fc576e0.chunk.css"
   },
   {
-    "revision": "3e2ec8c11e74db52dfb5",
-    "url": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js"
+    "revision": "d02935bd4705f7a551c6",
+    "url": "/batman-tv-series-app/static/js/2.2927934c.chunk.js"
   },
   {
     "revision": "f8d07a0791b71cec298a1ad1be623170",
-    "url": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js.LICENSE"
+    "url": "/batman-tv-series-app/static/js/2.2927934c.chunk.js.LICENSE"
   },
   {
-    "revision": "c9345ed214ae40376b84",
-    "url": "/batman-tv-series-app/static/js/main.2090849a.chunk.js"
+    "revision": "b2ed1fa42b25954ac5cb",
+    "url": "/batman-tv-series-app/static/js/main.087d783c.chunk.js"
   },
   {
     "revision": "e76703dbbc8c8e4457c4",
