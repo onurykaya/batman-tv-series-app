@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Switch>
-        <Route exact path="/batman-tv-series-app" component={Main} />
+        <Route exact path="/" component={Main} />
         <Route exact path="/detail/:id" component={Detail} />
         <Route exact path="" component={NotFound} />
       </Switch>
