@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/batman-tv-series-app/static/css/main.3fc576e0.chunk.css",
-    "main.js": "/batman-tv-series-app/static/js/main.bb5c1cd4.chunk.js",
-    "main.js.map": "/batman-tv-series-app/static/js/main.bb5c1cd4.chunk.js.map",
+    "main.js": "/batman-tv-series-app/static/js/main.0be2fc94.chunk.js",
+    "main.js.map": "/batman-tv-series-app/static/js/main.0be2fc94.chunk.js.map",
     "runtime-main.js": "/batman-tv-series-app/static/js/runtime-main.189b2942.js",
     "runtime-main.js.map": "/batman-tv-series-app/static/js/runtime-main.189b2942.js.map",
     "static/js/2.b2454a83.chunk.js": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js",
     "static/js/2.b2454a83.chunk.js.map": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js.map",
     "index.html": "/batman-tv-series-app/index.html",
-    "precache-manifest.b5fc2562c46a73b5d1534a3b797e0498.js": "/batman-tv-series-app/precache-manifest.b5fc2562c46a73b5d1534a3b797e0498.js",
+    "precache-manifest.851203bd40f5f9a99f0cf05acbf83875.js": "/batman-tv-series-app/precache-manifest.851203bd40f5f9a99f0cf05acbf83875.js",
     "service-worker.js": "/batman-tv-series-app/service-worker.js",
     "static/css/main.3fc576e0.chunk.css.map": "/batman-tv-series-app/static/css/main.3fc576e0.chunk.css.map",
     "static/js/2.b2454a83.chunk.js.LICENSE": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.189b2942.js",
     "static/js/2.b2454a83.chunk.js",
     "static/css/main.3fc576e0.chunk.css",
-    "static/js/main.bb5c1cd4.chunk.js"
+    "static/js/main.0be2fc94.chunk.js"
   ]
 }
