@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e91a3559abae896de56a2cca9f874e57",
+    "revision": "d2055122b732f64d11cc04570ca712af",
     "url": "/batman-tv-series-app/index.html"
   },
   {
-    "revision": "e5439f405afb57f941aa",
+    "revision": "d79af2993318f9d906a9",
     "url": "/batman-tv-series-app/static/css/main.3fc576e0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/batman-tv-series-app/static/js/2.b2454a83.chunk.js.LICENSE"
   },
   {
-    "revision": "e5439f405afb57f941aa",
-    "url": "/batman-tv-series-app/static/js/main.24ab9ffd.chunk.js"
+    "revision": "d79af2993318f9d906a9",
+    "url": "/batman-tv-series-app/static/js/main.3d601c0b.chunk.js"
   },
   {
     "revision": "e76703dbbc8c8e4457c4",
