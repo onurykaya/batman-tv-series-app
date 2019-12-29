@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/batman-tv-series-app/precache-manifest.e8d0bfcc62827510c50ee91a50e00836.js"
+  "/batman-tv-series-app/precache-manifest.3aa926840d64f1ab70162f0547e567e0.js"
 );
 
 self.addEventListener('message', (event) => {
