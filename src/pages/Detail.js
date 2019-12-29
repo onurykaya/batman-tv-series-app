@@ -1,27 +1,19 @@
-import React, { Component } from "react";
-import { fetchTvShow, loadTv } from "../actionCreators/actionCreators";
-import { connect } from "react-redux";
+import { useState, useEffect } from "react";
 import ReactHtmlParser from "react-html-parser";
+import React from 'react';
+import ReactLoading from "react-loading";
+import "bootstrap/dist/css/bootstrap.css";
 
-class Detail extends Component {
-  constructor(props) {
-    super(props);
-    props.loadTvShow(props.id);
-    props.loadTv(props.loading);
-    
-  }
-  render() {
-    const { props } = this;
-    const item = props.tvShow;
-    console.log(props.loading);
-    if(props.loading){
-      return (
-        <div>Loading</div>,
-        console.log(props.loading) 
-        );
-    }else{
-      return (
-        <div className="detail-main-container">
+function Detail(props) {
+
+  const [loading, setLoading] = useState(true);
+
+  const [item, setItem] = useState({});
+
+
+  const Movie = (
+    <React.Fragment>
+       <div className="detail-main-container">
           <div className="detail-banner">
             <img
               className="detail-banner"
@@ -33,21 +25,33 @@ class Detail extends Component {
           <hr />
           <div className="summary"> {ReactHtmlParser(item.summary)} </div>
         </div>
+    </React.Fragment>
+  );
+
+  useEffect(() => {
+    getApıData();
+  }, []);
+
+
+  const getApıData = ()=>{
+    fetch(`https://api.tvmaze.com/shows/${props.match.params.id}`, {method: 'GET'})
+      .then(res => res.json())
+      .then(
+        item => setItem({ ...item }),
+        setLoading(false)
       );
-    }
-    
   }
+
+  
+
+  return (
+    <div className="detail-main-container">
+      {loading ? <ReactLoading type={"bars"} color={"black"} /> : Movie}
+    </div>
+  );
 }
 
-const mapStateToProps = (state, ownProps) => ({
-  id: ownProps.match.params.id,
-  tvShow: state.reducer.item,
-  loading: state.reducer.loading
-});
 
-const mapDispatchToProps = dispatch => ({
-  loadTvShow: id => dispatch(fetchTvShow(id)),
-  loadTv
-});
 
-export default connect(mapStateToProps, mapDispatchToProps)(Detail);
+
+export default Detail;

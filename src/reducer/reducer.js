@@ -1,9 +1,7 @@
-import { FETCH_TV_SHOWS, FETCH_TV_SHOW, LOAD_TV_SHOW } from "../actions/actions";
+import { FETCH_TV_SHOWS } from "../actions/actions";
 
 const initialState = {
   data: [],
-  item: [],
-  loading: false
 };
 
 export default function(state = initialState, action) {
@@ -12,16 +10,6 @@ export default function(state = initialState, action) {
       return {
         ...state,
         data: action.data
-      };
-    case FETCH_TV_SHOW:
-      return {
-        ...state,
-        item: action.item
-      };
-    case LOAD_TV_SHOW:
-      return {
-        ...state,
-        loading:true
       };
     default:
       return state;
