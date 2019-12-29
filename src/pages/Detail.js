@@ -16,7 +16,8 @@ class Detail extends Component {
     console.log(props.loading);
     if(props.loading){
       return (
-        <div>Loading</div> 
+        <div>Loading</div>,
+        console.log(props.loading) 
         );
     }else{
       return (

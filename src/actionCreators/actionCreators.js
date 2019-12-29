@@ -1,7 +1,7 @@
 import {FETCH_TV_SHOW, FETCH_TV_SHOWS, LOAD_TV_SHOW} from '../actions/actions';
 
 export const loadTv = () => dispatch => {
-    dispatch({
+    return dispatch({
         type: LOAD_TV_SHOW
     })
 }
