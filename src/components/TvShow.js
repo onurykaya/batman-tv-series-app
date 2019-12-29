@@ -15,7 +15,7 @@ export default function TvShow(props) {
           <hr />
           <div className="language">
             {item.show.genres.map(item => {
-              return <div>{item}</div>;
+              return <div key={Math.random()}>{item}</div>;
             })}
           </div>
           {item.show.rating.average ? (

@@ -1,4 +1,10 @@
-import {FETCH_TV_SHOW, FETCH_TV_SHOWS} from '../actions/actions';
+import {FETCH_TV_SHOW, FETCH_TV_SHOWS, LOAD_TV_SHOW} from '../actions/actions';
+
+export const loadTv = () => dispatch => {
+    dispatch({
+        type: LOAD_TV_SHOW
+    })
+}
 
 export const fetchTvShows = () => dispatch => {
   fetch("https://api.tvmaze.com/search/shows?q=batman")
